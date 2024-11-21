@@ -13,6 +13,12 @@ spec:
   type: service
 
   parameters:
+  - title: OwnerPicker Example
+    properties:
+      OwnerPicker:
+        type: string
+        ui:field: OwnerPicker
+        ui:options: {}
     - title: Fill in some steps
       required:
         - name
